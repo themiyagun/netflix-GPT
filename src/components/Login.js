@@ -143,7 +143,7 @@ const Login = () => {
           onClick={toggleSignInForm}
         >
           {isSignInForm
-            ? "Are You New to NetFlix?? Sign Up"
+            ? "Are You New to NFlixClone?? Sign Up"
             : "Alredy User!! Sign In"}
         </div>
       </form>

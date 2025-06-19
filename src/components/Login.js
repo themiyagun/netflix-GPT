@@ -7,7 +7,7 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { auth } from "../utils/firebase";
-import { USER_AVATAR } from "../utils/constants";
+import { BG_URL, USER_AVATAR } from "../utils/constants";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -92,7 +92,7 @@ const Login = () => {
       <Header />
       <div className="relative">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/6863f6e8-d419-414d-b5b9-7ef657e67ce4/web/LK-en-20250602-TRIFECTA-perspective_0d197442-faaa-4a8f-8729-f4b7bc8340ad_large.jpg"
+          src={BG_URL}
           alt="bgImage"
         ></img>
       </div>

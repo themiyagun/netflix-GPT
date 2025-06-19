@@ -14,7 +14,7 @@ const useMovieTrailer = (id) => {
 
     const filterData = json.results.filter((video) => video.type === "Trailer");
     // (video) => video.type === "Trailer" && video.name === "Official Trailer"  // correct way to filter videos where type === "Trailer" and name === "Official Trailer":
-    const trailer = filterData.length ? filterData[0] : json.results[0];
+    const trailer = filterData.length ? filterData[1] : json.results[0];
     dispatch(addTrailerVideo(trailer));
   };
 

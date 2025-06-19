@@ -8,6 +8,8 @@ const MovieList = ({ title, movies }) => {
     return <div>No movies found</div>;
   }
 
+  // console.log(movies)
+
 
   return (
     <div className="px-4 mt-20">

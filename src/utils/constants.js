@@ -23,8 +23,6 @@ export const SUPPORT_LANGUAGE = [
   { identifier: "tamil", name: "Tamil" },
 ];
 
+// export const OPEN_AI_KEY = process.env.REACT_APP_OPEN_AI_KEY;
 
-export const OPEN_AI_KEY= process.env.REACT_APP_OPEN_AI_KEY;
-
-
-export const DEEP_SEEK_API_KEY =process.env.REACT_APP_DEEP_SEEK_API_KEY;
+export const DEEP_SEEK_API_KEY = process.env.REACT_APP_DEEP_SEEK_API_KEY;

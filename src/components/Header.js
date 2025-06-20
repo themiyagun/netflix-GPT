@@ -66,7 +66,7 @@ const Header = () => {
   };
 
   return (
-    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
+    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-30 flex justify-between">
       {/* <img className="w-40" src={LOGO} alt="logo"></img> */}
       <h1 className="text-5xl font-extrabold text-red-700">NFlixClone</h1>
 

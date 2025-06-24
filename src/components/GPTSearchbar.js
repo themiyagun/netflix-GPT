@@ -63,7 +63,7 @@ const GPTSearchbar = () => {
     <div className="w-full flex items-center justify-center">
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="w-1/2 bg-black bg-opacity-80 p-6"
+        className="w-full md:w-1/2 bg-black bg-opacity-80 p-6"
       >
         <div className="flex gap-2">
           <input
@@ -74,7 +74,7 @@ const GPTSearchbar = () => {
           ></input>
           <button
             onClick={handleGPTSerchClick}
-            className="px-3 py-2 bg-red-800 w-2/12 text-white"
+            className="px-2 py-2 bg-red-800 w-2/12 text-white"
           >
             {lang[language].search}
           </button>
